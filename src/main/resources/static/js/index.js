@@ -196,7 +196,8 @@ $(document).ready(function() {
 			contentType : "application/json",
 			success : function(response) {
 				$("#snack").val(response.name);
-				$("#valuePrice").val(response.totalValue);
+				/*$("#valuePrice").val(response.totalValue);*/
+				$("#valuePrice").val((response.totalValue * 1).toLocaleString('pt-br', {style: 'currency', currency: 'BRL'}));
 			},
 			error : function(error) {
 				alert("Error");
