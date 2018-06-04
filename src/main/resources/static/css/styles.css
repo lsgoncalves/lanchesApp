@@ -1,0 +1,107 @@
+/* Tabela Pai */
+#divTableParent {
+	display:flex;
+}
+
+/* Tabela de Lanches */
+#divTableSnacks td, #divTableSnacks th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#divTableSnacks{
+	float:left;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+#divTableSnacks tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+#divTableSnacks tr:hover {
+	background-color: #ddd;
+}
+
+#divTableSnacks th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #c0c0c0;
+    color: white;
+}
+
+
+
+/* Tabela de Ingredientes */
+#divTableIngredients td, #divTableIngredients th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#divTableIngredients{
+	float:right;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#divTableIngredients tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+#divTableIngredients tr:hover {
+	background-color: #ddd;
+}
+
+#divTableIngredients th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #c0c0c0;
+    color: white;
+}
+
+#divValues {
+	display:flex;
+}
+
+#snack {
+	border:0;
+	font-size:28px;
+}
+
+#valuePrice {
+	border:0;
+	font-size:28px;
+}
+
+#btnCalc {
+	width: 230px;
+	height: 70px;
+	font-size:28px;
+}
+
+#countAlface {
+	margin-right: 25px;
+    margin-left: 25px;
+}
+
+#countBacon {
+	margin-right: 25px;
+    margin-left: 25px;
+}
+
+#countHamburguer {
+	margin-right: 25px;
+    margin-left: 25px;
+}
+
+#countOvo {
+	margin-right: 25px;
+    margin-left: 25px;
+}
+
+#countQueijo {
+	margin-right: 25px;
+    margin-left: 25px;
+}

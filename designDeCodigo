@@ -1,0 +1,8 @@
+* Relatório de justificativas do design de código *
+
+	1. Projeto web utilizando SpringBoot vizando maior agilidade com configurações e assim aumentar a produtividade do desenvolvedor;
+	 1.1. Spring Boot utiliza um container embarcado para facilitar o desenvolvimento, que por padrão é o Tomcat; 
+	2. Utilzado dependência "DevTolls" para reinicialização automática do server ao realizar uma alteração no projeto;
+	3. Foram utilizados os padões java para uma melhor identação do código;
+	4. Utilizado programação orientada a objeto com java tendo assim melhor reutilização de código;
+	5. Implementado JUnit para a realização de testes intregrados e automatizados;

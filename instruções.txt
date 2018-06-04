@@ -1,0 +1,19 @@
+* Instruções para executar a aplicação (Desenvolvedor) *
+
+	1. Importar o projeto como padrão: Maven(Existing Maven Project);
+	2. Buildar o projeto importado "snacksApp";
+	3. Subir o projeto -> através da classe "SnacksAppApplication.java";
+	 3.1. Executar o método main.
+	4. A aplicação estará inicializada com a seguinte mensagem no Console da IDE: Started SnacksAppApplication in #.### seconds.
+	5. URL para utilizar a aplicação: http://localhost:8080
+	6. Os testes implementados com JUnit se encontram no seguinte caminho: snacksApp\src\test\java\com\snacksapp\tests\TestSnacks.java
+
+	IDE utilizada para desenvolvimento: Eclipse.
+
+* Instruções para utilizar a aplicação (Usuário) *
+
+	1. Selecionar uma das opções padrões de lanche no menu "Lanches - opções do cardápio"(Os ingredientes padrões são flegados automáticamente);
+	2. Flegar as opções de cada ingrediente para inserir ingredientes extras;
+	3. Clicar no botão "Quantidade" de cada ingrediente para adicionar a quantidade extra;
+	4. Desflegar as opções de cada ingrediente para retirá-lo do lanche e/ou para resetar a quantidade com o valor "1";
+	5. Clicar no botão "Calcular" para realizar o cálculo de cada lanche escolhido ou personalizado.

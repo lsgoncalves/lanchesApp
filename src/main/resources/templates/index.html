@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
+<head>
+<title>IngredientsApp</title>
+</head>
+<body>
+	<!-- Alguns lanches são opções de cardápio. -->
+	<div id="divTableParent">
+		<div id="divTableSnacks">
+			<h1>Lanches / Cardapio</h1>
+			<table>
+				<tr>
+					<th></th>
+					<th>Lanche</th>
+				</tr>
+				<tr>
+					<td><input id="rdXbacon" type="radio" checked="checked"
+						name="radio"></td>
+					<td><label class="container">X-Bacon <span
+							class="checkmark"></span></label></td>
+				</tr>
+				<tr>
+					<td><input id="rdXburguer" type="radio" name="radio"></td>
+					<td><label class="container">X-Burguer <span
+							class="checkmark"></span></label></td>
+				</tr>
+				<tr>
+					<td><input id="rdXegg" type="radio" name="radio"></td>
+					<td><label class="container">X-Egg <span
+							class="checkmark"></span></label></td>
+				</tr>
+				<tr>
+					<td><input id="rdXeggBacon" type="radio" name="radio"></td>
+					<td><label class="container">X-Egg Bacon <span
+							class="checkmark"></span></label></td>
+				</tr>
+			</table>
+		</div>
+
+		<!-- Outros podem conter ingredientes personalizados. -->
+		<div id="divTableIngredients">
+			<h1>Ingredientes</h1>
+			<table>
+				<tr>
+					<th></th>
+					<th>Ingrediente</th>
+					<th>Valor</th>
+					<th>Quantidade</th>
+				</tr>
+				<tr>
+					<td><input id="checkAlface" name="ing" type="checkbox"
+						value="1"></input></td>
+					<td>Alface</td>
+					<td>R$ 0,40</td>
+					<td><input type=button id="countAlface" value="1"></td>
+				</tr>
+				<tr>
+					<td><input id="checkBacon" name="ing" type="checkbox"
+						value="2"></input></td>
+					<td>Bacon</td>
+					<td>R$ 2,00</td>
+					<td><input type=button id="countBacon" value="1"></td>
+				</tr>
+				<tr>
+					<td><input id="checkHamburguer" name="ing" type="checkbox"
+						value="3"></input></td>
+					<td>Hamburguer de carne</td>
+					<td>R$ 3,00</td>
+					<td><input type=button id="countHamburguer" value="1"></td>
+				</tr>
+				<tr>
+					<td><input id="checkOvo" name="ing" type="checkbox" value="4"></input></td>
+					<td>Ovo</td>
+					<td>R$ 0,80</td>
+					<td><input type=button id="countOvo" value="1"></td>
+				</tr>
+				<tr>
+					<td><input id="checkQueijo" name="ing" type="checkbox"
+						value="5"></input></td>
+					<td>Queijo</td>
+					<td>R$ 1,50</td>
+					<td><input type=button id="countQueijo" value="1"></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+		</br></br></br>
+		<button type="button" id="btnCalc">Calcular</button>
+	<div id="divValues">
+		</br>
+		<h1 id="h1Snack">Lanche: <input size="25" type="text" id="snack" value=""></h1>
+		<h1>Total R$ <input type="text" id="valuePrice" value="" class="dinheiro"></h1>
+	</div>
+
+</body>
+</html>
