@@ -45,8 +45,10 @@ $(document).ready(function() {
 	});
 	$("#checkAlface").change(function() {
 		if (!$("#checkAlface").is(":checked")) {
-			$("#countAlface").val(1);
+			$("#countAlface").val(0);
 			countAlface = 1;
+		} else {
+			$("#countAlface").val(1);
 		}
 	});
 
@@ -59,8 +61,10 @@ $(document).ready(function() {
 	});
 	$("#checkBacon").change(function() {
 		if (!$("#checkBacon").is(":checked")) {
-			$("#countBacon").val(1);
+			$("#countBacon").val(0);
 			countBacon = 1;
+		} else {
+			$("#countBacon").val(1);
 		}
 	});
 
@@ -73,8 +77,10 @@ $(document).ready(function() {
 	});
 	$("#checkHamburguer").change(function() {
 		if (!$("#checkHamburguer").is(":checked")) {
-			$("#countHamburguer").val(1);
+			$("#countHamburguer").val(0);
 			countHamburguer = 1;
+		} else {
+			$("#countHamburguer").val(1);
 		}
 	});
 
@@ -87,8 +93,10 @@ $(document).ready(function() {
 	});
 	$("#checkOvo").change(function() {
 		if (!$("#checkOvo").is(":checked")) {
-			$("#countOvo").val(1);
+			$("#countOvo").val(0);
 			countOvo = 1;
+		} else {
+			$("#countOvo").val(1);
 		}
 	});
 	
@@ -101,8 +109,10 @@ $(document).ready(function() {
 	});
 	$("#checkQueijo").change(function() {
 		if (!$("#checkQueijo").is(":checked")) {
-			$("#countQueijo").val(1);
+			$("#countQueijo").val(0);
 			countQueijo = 1;
+		} else {
+			$("#countQueijo").val(1);
 		}
 	});
 
@@ -228,11 +238,11 @@ $(document).ready(function() {
 		countHamburguer = 1;
 		countOvo = 1;
 		countQueijo = 1;
-		$("#countAlface").val(1);
-		$("#countBacon").val(1);
-		$("#countHamburguer").val(1);
-		$("#countOvo").val(1);
-		$("#countQueijo").val(1);
+		$("#countAlface").val(0);
+		$("#countBacon").val(0);
+		$("#countHamburguer").val(0);
+		$("#countOvo").val(0);
+		$("#countQueijo").val(0);
 		obj = [];
 	}
 });
